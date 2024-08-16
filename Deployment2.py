@@ -8,7 +8,7 @@ import numpy as np
 from imblearn.over_sampling import SMOTE
 
 # Load the data
-df = pd.read_csv("E:\\download folder\\Hotel_Reviews.csv", encoding='latin1')
+df = pd.read_csv("Hotel_Reviews.csv", encoding='latin1')
 
 # Preprocessing
 cv = CountVectorizer(max_features=5000, ngram_range=(1, 2))
