@@ -1,3 +1,4 @@
 #!/bin/bash
 
-/home/adminuser/venv/bin/streamlit "$@"
+source /home/adminuser/venv/bin/activate
+streamlit run Deployment.py
